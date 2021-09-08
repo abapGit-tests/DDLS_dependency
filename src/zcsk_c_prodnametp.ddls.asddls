@@ -8,5 +8,5 @@ define root view entity ZCSK_C_PRODNAMETP as select from ZCSK_R_PRODNAMETP
  {
    key Nameuuid,
    key Parentuuid,
-   NameText
+   ItemNameText
 }

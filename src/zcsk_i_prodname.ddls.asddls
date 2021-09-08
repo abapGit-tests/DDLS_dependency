@@ -7,5 +7,5 @@ define view ZCSK_I_PRODNAME
   {
   key nameuuid as Nameuuid,
   key parentuuid as Parentuuid,
-  name_text as NameText
+  name_text as ItemNameText
 }
