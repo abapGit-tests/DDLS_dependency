@@ -4,8 +4,10 @@
 @VDM.viewType: #BASIC
 define view ZCSK_I_PRODUCTCS
   as select from zcsk_shop_item
+  association [*] to ZCSK_I_PRODNAME as _ProdName on $projection.Itemuuid = _ProdName.Parentuuid
   {
   key itemuuid as Itemuuid,
   price as Price,
-  name as Name
+//  Associations
+  _ProdName
 }

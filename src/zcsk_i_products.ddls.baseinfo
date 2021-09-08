@@ -6,7 +6,9 @@
 "ZCSK_SHOP_ITEM"
 ],
 "ASSOCIATED":
-[],
+[
+"ZCSK_I_PRODNAME"
+],
 "BASE":
 [],
 "ANNO_REF":
