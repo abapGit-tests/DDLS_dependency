@@ -8,7 +8,7 @@ define root view entity ZCSK_C_PRODUCTSTP as select from ZCSK_I_PRODUCTCS
  {
   key Itemuuid,
   Price,
-  _ProdName.NameText,
+  _ProdName.ItemNameText,
 //  Associations
   _ProdName
 }
